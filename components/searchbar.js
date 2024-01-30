@@ -77,9 +77,10 @@ const SearchBar = ({ data, onFilterChange }) => {
       />
     <div className={styles.pls1}>
         <Select
+          isSearchable={false} 
           options={data.map(item => ({ value: item.time, label: item.time }))}
-          value={selectedDate}
-          onChange={handleDateChange}
+          value={selectedTime}
+          onChange={handleTimeChange}
           isClearable
           placeholder="Time"
           styles={selectS}
@@ -88,9 +89,10 @@ const SearchBar = ({ data, onFilterChange }) => {
 
       <div className={styles.pls2}>
         <Select
+          isSearchable={false} 
           options={data.map(item => ({ value: item.date, label: item.date }))}
-          value={selectedTime}
-          onChange={handleTimeChange}
+          value={selectedDate}
+          onChange={handleDateChange}
           isClearable
           placeholder="Date"
           styles={selectS}
