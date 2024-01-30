@@ -1,0 +1,22 @@
+.nav{
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 6%;
+
+
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+
+
+
+}
+
+.img{
+    margin-right: 8%;
+}

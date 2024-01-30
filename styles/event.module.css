@@ -1,0 +1,48 @@
+.data {
+    margin-left: 8.6%;
+    list-style-type: none;
+
+}
+
+.title {
+    /* margin-left: 8.6%; */
+    font-family: hp_simp_bold;
+    font-size: 94px;   
+    position: absolute;
+    margin-left: 8.6%;
+    top: 12%;
+}
+
+.itemName {
+    font-family: hp_simp_bold;
+    font-size: 30px;
+}
+
+
+
+.itemTime, .itemDate {
+    font-family: hp_simp;
+    font-size: 30px;
+}
+
+
+.wtf {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    /* Adjust styling for each list item */
+    margin-top: 1%; /* Example margin, adjust as needed */
+    margin-right: 6.7%;
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.2%;
+    padding-bottom: 2%;
+    background-color: #D9D9D9;
+}
+
+.itemDetails {
+    display: flex;
+    align-items: center;
+  }
+
